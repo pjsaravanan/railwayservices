@@ -27,7 +27,7 @@ if did:
         print(f"Removed deployment {d}: {resp.json()}")
 
 print("All deployments removed.", did)
-
+r.set("deploymentids", "")
 
 """
 mutation
